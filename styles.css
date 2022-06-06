@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Tiro Gurmukhi";
+    src: url("TiroGurmukhi-Italic.ttf")
+  }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
+    font-family: "Tiro Gurmukhi";
+    color:chocolate;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+table{
+    border: 3px solid black;
+    width: 100%
+}
+td, th{
+    text-align: center;
+    border: 3px solid black
+}
+
+.tableTitle{
+    text-align: center;
+}
+
+.catVideo{
+    display: block;
+    margin: 0 auto;
+}
+
+audio{
+    display: none;
+}
+
+button{
+    display: block;
+    margin: 0 auto
+}
+
+button:hover{
+    color: aqua;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.tableDiv{
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.ovalDiv{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
